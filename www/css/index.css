@@ -42,3 +42,42 @@ h1 {
     padding:0px;
     text-align:center;
 }
+
+.content {
+  margin: 8pt;
+}
+
+.soundcard {
+  width: 100%;
+  height: auto;
+}
+
+.soundcardtitle {
+  margin-left: 8pt;
+  margin-top: 12pt;
+  margin-right: 8pt;
+  margin-bottom: 12pt;
+}
+
+.seperator {
+  width: 32.5%;
+  height: 2px;
+  background-color: rgb(241, 241, 241);
+  margin-top: 4pt;
+}
+
+.soundboard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.soundbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8pt;
+    margin-left: 8pt;
+    margin-bottom: 0pt;
+    margin-right: 8pt;
+}
