@@ -34,6 +34,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -42,3 +43,10 @@ var app = {
 };
 
 app.initialize();
+
+/* Audiofiles */
+
+function playabflexen() {
+  var abflexen = new Audio("./audio/abflexen.mp3");
+  abflexen.play();
+}
