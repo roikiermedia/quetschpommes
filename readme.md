@@ -1,2 +1,2 @@
 ## Quetschpommes
-### Ein Finn Kliemann Soundboard.
+### Ein Fynn Kliemann Soundboard.
