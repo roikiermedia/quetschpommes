@@ -42,3 +42,25 @@ var app = {
 };
 
 app.initialize();
+
+/*---*/
+
+var sounds = [
+  {
+    name: "Abflexen geht immer",
+    filename: "abflexen.mp3",
+  },
+  {
+    name: "Besser als du",
+    filename: "besserkann_als_du.mp3",
+  },
+  {
+    name: "Ganz Genau",
+    filename: "ganz_genau.mp3",
+  }
+]
+
+function playSound(id) {
+  var sound = new Audio("./audio/" + sounds[id].filename);
+  sound.play();
+}
