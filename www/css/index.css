@@ -161,3 +161,18 @@ hr {
   opacity: 0.3;
 }
 
+.drawerabout {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8pt;
+  margin-right: 8pt;
+}
+
+.drawerabout h5 {
+  font-weight: 600 !important;
+}
+
+.drawerabout p {
+  font-size: 10pt;
+  font-weight: 300;
+}
