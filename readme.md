@@ -1,2 +1,2 @@
-## Quetschpommes ![](./www/img/res/mipmap-hdpi/ic_launcher.png) 
+## Quetschpommes
 ### Ein Fynn Kliemann Soundboard.
