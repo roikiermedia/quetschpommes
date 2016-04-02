@@ -14,6 +14,11 @@
         <param name="onload" value="true" />
     </feature>
     <allow-intent href="market:*" />
+    <icon density="mdpi" src="./www/img/res/mipmap-mdpi/ic_launcher.png" />
+    <icon density="hdpi" src="./www/img/res/mipmap-hdpi/ic_launcher.png" />
+    <icon density="xhdpi" src="./www/img/res/mipmap-xhdpi/ic_launcher.png" />
+    <icon density="xxhdpi" src="./www/img/res/mipmap-xxhdpi/ic_launcher.png" />
+    <icon density="xxxhdpi" src="./www/img/res/mipmap-xxxhdpi/ic_launcher.png" />
     <name>Quetschpommes</name>
     <description>
         Ein Fynn Kliemann Soundboard

@@ -34,10 +34,10 @@
            xxhdpi  : 144x144 px
            xxxhdpi : 192x192 px
        -->
-       <icon src="./img/res/mipmap-mdpi/ic_launcher.png" density="mdpi" />
-       <icon src="./img/res/mipmap-hdpi/ic_launcher.png" density="hdpi" />
-       <icon src="./img/res/mipmap-xhdpi/ic_launcher.png" density="xhdpi" />
-       <icon src="./img/res/mipmap-xxhdpi/ic_launcher.png" density="xxhdpi" />
-       <icon src="./img/res/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
+       <icon src="./www/img/res/mipmap-mdpi/ic_launcher.png" density="mdpi" />
+       <icon src="./www/img/res/mipmap-hdpi/ic_launcher.png" density="hdpi" />
+       <icon src="./www/img/res/mipmap-xhdpi/ic_launcher.png" density="xhdpi" />
+       <icon src="./www/img/res/mipmap-xxhdpi/ic_launcher.png" density="xxhdpi" />
+       <icon src="./www/img/res/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
    </platform>
 </widget>
