@@ -25,4 +25,19 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <preference name="DefaultVolumeStream" value="media" />
+    <platform name="android">
+       <!--
+           ldpi    : 36x36 px
+           mdpi    : 48x48 px
+           hdpi    : 72x72 px
+           xhdpi   : 96x96 px
+           xxhdpi  : 144x144 px
+           xxxhdpi : 192x192 px
+       -->
+       <icon src="./img/res/mipmap-mdpi/ic_launcher.png" density="mdpi" />
+       <icon src="./img/res/mipmap-hdpi/ic_launcher.png" density="hdpi" />
+       <icon src="./img/res/mipmap-xhdpi/ic_launcher.png" density="xhdpi" />
+       <icon src="./img/res/mipmap-xxhdpi/ic_launcher.png" density="xxhdpi" />
+       <icon src="./img/res/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
+   </platform>
 </widget>
