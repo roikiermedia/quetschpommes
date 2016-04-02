@@ -398,7 +398,7 @@ Custom property | Description | Default
            */
           drawerWidth: {
             type: String,
-            value: '256px'
+            value: '320px'
           },
 
           /**
@@ -802,7 +802,7 @@ Custom property | Description | Default
         _getAutoFocusedNode: function() {
           var drawerContent = this._getDrawerContent();
 
-          return this.drawerFocusSelector ? 
+          return this.drawerFocusSelector ?
               Polymer.dom(drawerContent).querySelector(this.drawerFocusSelector) || drawerContent : null;
         },
 

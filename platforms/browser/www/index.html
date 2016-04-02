@@ -34,7 +34,7 @@
   <meta name="msapplication-tap-highlight" content="no">
   <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
   <link rel="stylesheet" type="text/css" href="css/index.css">
-  <title>Hello World</title>
+  <title>Quetschpommes</title>
 
   <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
 
@@ -45,6 +45,8 @@
   <link rel="import" href="./bower_components/paper-fab/paper-fab.html">
   <link rel="import" href="./bower_components/iron-icons/iron-icons.html">
   <link rel="import" href="./bower_components/iron-icons/av-icons.html">
+  <link rel="import" href="./bower_components/iron-icons/editor-icons.html">
+  <link rel="import" href="./bower_components/iron-icons/communication-icons.html">
   <link rel="import" href="./bower_components/iron-flex-layout/iron-flex-layout.html">
   <link rel="import" href="./bower_components/paper-card/paper-card.html">
 
@@ -55,13 +57,37 @@
   <paper-drawer-panel class="flex">
 
     <paper-header-panel drawer mode="seamed">
-      <div> Drawer content... </div>
+      <div>
+        <img src="./img/garage.jpg" class="drawerimg" />
+        <div class="drawergradient"></div>
+        <div class="drawertitle">
+          <img src="./img/fynn.jpg" class="face">
+          <div class="drawertitletext">
+            <h4>Quetschpommes.de</h4>
+            <h5>Das Fynn Kliemann Soundboard</h5>
+          </div>
+        </div>
+
+        <div class="drawerlinks">
+          <a href="#"><iron-icon icon="editor:format-paint"></iron-icon>Fynn Klieman Heimwerkerking</a>
+          <a href="#"><iron-icon icon="av:library-music"></iron-icon>fimbim Musik</a>
+          <a href="#"><iron-icon icon="communication:comment"></iron-icon>@fimbim auf Twitter</a>
+        </div>
+
+        <hr>
+
+        <div class="drawerabout">
+          <h5>Über Quetschpommes</h5>
+          <p>Einen kleinen Kliemann für die Hosentasche, das wär's doch. Und mit Quetschpommes.de hast du den Heimwerkerking und seine allumfassenden Ratschläge immer dabei! Probleme beim eigenen Projekt? Schnell auf's passende Knöpfchen gepatscht und die Inspiration beginnt.</p>
+          <p>Quetschpommes.de ist ein Ding gemacht mit viel Liebe von <a href="#">@fpfle94</a>, <a href="#">@jimi_henning</a> und <a href="#">@roikiermedia</a> aus dem <a href="#">Chaostreff Flensburg</a>.</p>
+        </div>
+      </div>
     </paper-header-panel>
 
-    <paper-header-panel main mode="waterfall">
+    <paper-header-panel main mode="standard">
       <paper-toolbar>
         <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
-        <h3>Title</h3>
+        <h3>Quetschpommes</h3>
       </paper-toolbar>
 
       <div class="content">
@@ -72,43 +98,18 @@
 
           <div class="soundboard">
             <div class="soundbutton">
-              <paper-fab icon="av:play-arrow"></paper-fab>
-              <p>Sound</p>
+              <paper-fab icon="av:play-arrow" onclick="playSound(0);"></paper-fab>
+              <p>Abflexen</p>
             </div>
 
-            <div class="soundbutton">
+            <div class="soundbutton" onclick="playSound(1);">
               <paper-fab icon="av:play-arrow"></paper-fab>
-              <p>Sound</p>
+              <p>Besser als du</p>
             </div>
 
-            <div class="soundbutton">
+            <div class="soundbutton" onclick="playSound(2);">
               <paper-fab icon="av:play-arrow"></paper-fab>
-              <p>Sound</p>
-            </div>
-
-            <div class="soundbutton">
-              <paper-fab icon="av:play-arrow"></paper-fab>
-              <p>Sound</p>
-            </div>
-
-            <div class="soundbutton">
-              <paper-fab icon="av:play-arrow"></paper-fab>
-              <p>Sound</p>
-            </div>
-
-            <div class="soundbutton">
-              <paper-fab icon="av:play-arrow"></paper-fab>
-              <p>Sound</p>
-            </div>
-
-            <div class="soundbutton">
-              <paper-fab icon="av:play-arrow"></paper-fab>
-              <p>Sound</p>
-            </div>
-
-            <div class="soundbutton">
-              <paper-fab icon="av:play-arrow"></paper-fab>
-              <p>Sound</p>
+              <p>Ganz genau..</p>
             </div>
           </div>
         </paper-card>

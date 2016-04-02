@@ -12,6 +12,9 @@
         },
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "com.internrocket.plugins.statusbarcolor": {
+            "PACKAGE_NAME": "de.quetschpommes.app"
         }
     },
     "dependent_plugins": {}

@@ -12,6 +12,9 @@
         },
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "com.internrocket.plugins.statusbarcolor": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },
     "dependent_plugins": {},
@@ -35,6 +38,7 @@
     ],
     "plugin_metadata": {
         "cordova-plugin-whitelist": "1.2.1",
-        "cordova-plugin-statusbar": "2.1.2"
+        "cordova-plugin-statusbar": "2.1.2",
+        "com.internrocket.plugins.statusbarcolor": "0.0.1"
     }
 }
