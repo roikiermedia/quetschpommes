@@ -47,6 +47,15 @@ h3 {
   font-family: "Roboto", sans-serif !important;
 }
 
+h5 {
+  font-weight: 300 !important;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
 .content {
   display: flex;
   justify-content: center;
@@ -129,3 +138,26 @@ h3 {
   border-color: white;
   border-width: 2pt;
 }
+
+.drawerlinks {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8pt;
+}
+
+.drawerlinks a {
+  margin-top: 16pt;
+  font-weight: 300;
+  font-size: 12pt;
+}
+
+.drawerlinks iron-icon {
+  margin-right: 12pt;
+}
+
+hr {
+  margin-top: 16pt;
+  margin-bottom: 16pt;
+  opacity: 0.3;
+}
+
