@@ -26,7 +26,7 @@ body {
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     height: 100%;
     width: 100%;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif !important;
 }
 
 /* Landscape layout (with min-width) */
@@ -41,6 +41,10 @@ h1 {
     overflow:visible;
     padding:0px;
     text-align:center;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif !important;
 }
 
 .content {
