@@ -57,6 +57,38 @@ var sounds = [
   {
     name: "Ganz Genau",
     filename: "ganz_genau.mp3",
+  },
+  {
+    name: "Arbeiten mit den Füßen",
+    filename: "arbeiten_mit_füßen.mp3",
+  },
+  {
+    name: "Landwirt ohne Kabelbinder",
+    filename: "bauer_ohne_kabelbinder.mp3",
+  },
+  {
+    name: "Gaffa schadet nie",
+    filename: "bisschen_gaffa.mp3",
+  },
+  {
+    name: "Höchste Stuffe",
+    filename: "hoechste_stuffe.mp3",
+  },
+  {
+    name: "Kabeltrommel",
+    filename: "kabeltrommel.mp3",
+  },
+  {
+    name: "Nanumeter",
+    filename: "nanumeter.mp3",
+  },
+  {
+    name: "Nicht mehr messen",
+    filename: "nicht_mehr_messen.mp3",
+  },
+  {
+    name: "Wenn ich ne Pflanze wäre",
+    filename: "wenn_ich_ne_pflanze_waer.mp3",
   }
 ]
 
